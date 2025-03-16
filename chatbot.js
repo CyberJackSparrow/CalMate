@@ -1,4 +1,4 @@
-const apiKey = "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"; // Replace with your actual API key
+"; // Replace with your actual API key
 const model = "microsoft/DialoGPT-medium"; // Better conversational AI
 
 async function chatWithCalMateAI(userMessage) {
