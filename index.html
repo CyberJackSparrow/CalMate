@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalMate - Dashboard</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+        <h1>
+            Ready to become more fit
+        </h1>
+        <p>
+            Let's Track your Calories and get you those abs!
+        </p>
+    </header>
+
+    <main>
+        <section id="calorie-tracker">
+            <h2>Let's See your calories</h2>
+            <input type="text" id="foodInput" placeholder="What did you eat?">
+            <input type="number" id="quantity" placeholder="No. of items" />
+            <input type="number" id="calorieInput" placeholder="Calories!!">
+            
+            
+            <div class="button-container">
+                <button id="addFood">Add Item</button>
+            </div>
+
+            <div id="calorie-summary" class="calorie-summary">
+                <h3 id="calorieSummary" class="clickable">Total Calories: 0 kcal ▼</h3>
+                <ul id="logFood" class="calorie-log"></ul>
+            </div>
+        </section>
+
+        <section id="recipe-suggestion">
+            <h2>Hey, Try out this Meal to keep your calories in check!</h2>
+            <p>Try Eating a Grilled Chicken bowl with veggies</p>
+        </section>
+
+        <section id="aiChatbot" class="chatbot-section">
+            <h2>Let's see what our AI chatbot - "CalMateAI" can do</h2>
+            <p>Ask CalMate about anything related to Nutrition</p>
+            
+            <div id="chatBotMessages" class="chatbot-messages">
+                <p class="coming-soon">🚀 Coming Soon! 🚀</p>
+                <p>We are working on making CalMateAI smarter. Stay tuned for updates!</p>
+            </div>
+        </section>
+    </main>
+  </div>
+
+  <script src="chatbot.js"></script>
+  <script src="calorieTracker.js"></script>
+</body>
+</html>
